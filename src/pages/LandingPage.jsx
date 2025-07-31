@@ -16,6 +16,7 @@ const Hero = () => {
 
       {/* Hero Content */}
       <motion.div
+        id="home"
         className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}

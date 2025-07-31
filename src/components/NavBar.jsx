@@ -19,10 +19,21 @@ const Navbar = () => {
 
       {/* Centered Nav Links */}
       <ul className="absolute left-1/2 transform -translate-x-1/2 flex space-x-8 text-md font-medium mx-auto">
-        <li className="hover:text-gray-300 cursor-pointer">Home</li>
-        <li className="hover:text-gray-300 cursor-pointer">Services</li>
-        <li className="hover:text-gray-300 cursor-pointer">Gallery</li>
-        <li className="hover:text-gray-300 cursor-pointer">Contact</li>
+        <li>
+          <a href="#home" className="hover:text-gray-300 cursor-pointer">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#services" className="hover:text-gray-300 cursor-pointer">
+            Services
+          </a>
+        </li>
+        <li>
+          <a href="#contact" className="hover:text-gray-300 cursor-pointer">
+            Contact
+          </a>
+        </li>
       </ul>
     </motion.div>
   );

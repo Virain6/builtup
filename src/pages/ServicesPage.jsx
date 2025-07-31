@@ -108,7 +108,7 @@ const ServicesScroller = () => {
   }, [scrollLock, activeIndex]);
 
   return (
-    <section ref={servicesRef} className="relative h-auto">
+    <section ref={servicesRef} className="relative h-auto" id="services">
       <div
         ref={containerRef}
         className={`h-full w-full bg-gray-100 px-4 py-8 ${
