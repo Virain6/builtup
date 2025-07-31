@@ -1,4 +1,4 @@
-const AccordionSection = ({ title, description, isOpen }) => {
+const AccordionSection = ({ title, description, isOpen, onClickTitle }) => {
   return (
     <div
       className={`transition-all duration-700 overflow-hidden ${
@@ -7,7 +7,8 @@ const AccordionSection = ({ title, description, isOpen }) => {
     >
       {/* Title only (always visible) */}
       <div
-        className={`text-xl font-semibold flex items-center gap-4 ${
+        onClick={onClickTitle}
+        className={`cursor-pointer text-xl font-semibold flex items-center gap-4 ${
           isOpen ? "mb-4 text-black" : "text-gray-400"
         } transition-colors duration-300`}
       >

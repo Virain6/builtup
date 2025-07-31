@@ -127,6 +127,7 @@ const ServicesScroller = () => {
                 title={item.title}
                 description={item.description}
                 isOpen={index === activeIndex}
+                onClickTitle={() => setActiveIndex(index)}
               />
             ))}
           </div>
