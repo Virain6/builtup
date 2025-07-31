@@ -18,11 +18,8 @@ const QuoteSection = () => {
           <p className="flex items-center justify-center gap-2">
             <Phone className="w-5 h-5" />
             <strong>Phone:</strong>
-            <a
-              href="tel:+16471234567"
-              className="underline hover:text-gray-200"
-            >
-              +1 (647) 123-4567
+            <a href="tel:+4165612292" className="underline hover:text-gray-200">
+              +1 (416) 561-2292
             </a>
           </p>
           <p className="flex items-center justify-center gap-2">
@@ -32,13 +29,13 @@ const QuoteSection = () => {
               href="mailto:info@builtupconstruction.ca"
               className="underline hover:text-gray-200"
             >
-              info@builtupconstruction.ca
+              bawarjv@yahoo.com
             </a>
           </p>
         </div>
 
         <a
-          href="mailto:info@builtupconstruction.ca"
+          href="mailto:bawarjv@yahoo.com"
           className="mt-8 inline-block bg-white text-[rgb(160,89,48)] font-medium px-6 py-3 rounded-lg hover:bg-opacity-90 transition duration-300"
         >
           Request a Quote
